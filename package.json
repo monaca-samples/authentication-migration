@@ -1,0 +1,15 @@
+{
+  "name": "authetentication-migration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "import" : "node main.js",
+    "import:emu" : "FIREBASE_AUTH_EMULATOR_HOST=127.0.0.1:9099 node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "^12.0.0"
+  }
+}

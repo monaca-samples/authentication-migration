@@ -1,0 +1,7 @@
+.DS_Store
+*.swp
+.vscode/
+typings/
+node_modules
+.idea/
+serviceAccountKey.json
