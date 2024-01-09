@@ -12,9 +12,15 @@
     npm install
     ```
 
-2. `serviceAccountKey.json.example`ファイルをコピーして`serviceAccountKey.json`を作成します。Firebaseコンソールから取得した設定内容をこのファイルにコピー＆ペーストします。
+2. Firebase CLIのインストール
 
-3. `data`ディレクトリにニフクラ mobile backendからエクスポートした`user.json`を配置します。このファイルにはインポートするユーザーデータが含まれている必要があります。
+下記を参考にFirebase CLIをインストールします。
+
+  - https://firebase.google.com/docs/cli?hl=ja
+
+3. `serviceAccountKey.json.example`ファイルをコピーして`serviceAccountKey.json`を作成します。Firebaseコンソールから取得した設定内容をこのファイルにコピー＆ペーストします。
+
+4. `data`ディレクトリにニフクラ mobile backendからエクスポートした`user.json`を配置します。このファイルにはインポートするユーザーデータが含まれている必要があります。
 
 ## 使用方法
 
