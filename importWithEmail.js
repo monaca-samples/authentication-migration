@@ -17,10 +17,10 @@ admin.initializeApp({
             const results = await getAuth()
                 .importUsers([
                     {
-                        uid: user.objectId,
-                        displayName: user.userName,
-                        email: user.mailAddress,
-                        emailVerified: false,
+                        uid: user.objectId,         // NCMBのユーザーIDをFirebaseのUIDにマッピングします。
+                        displayName: user.userName, // NCMBのユーザー名をFirebaseの表示名（displayName）にマッピングします。
+                        email: user.mailAddress,    // NCMBのメールアドレスをFirebaseのメールアドレスにマッピングします。
+                        emailVerified: false,       // メールアドレスの確認状態。ここでは、初期状態を未確認（false）としています。
                     },
                 ]);
 
