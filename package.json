@@ -4,8 +4,10 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "import" : "node main.js",
-    "import:emu" : "FIREBASE_AUTH_EMULATOR_HOST=127.0.0.1:9099 node main.js"
+    "import" : "node importWithEmail.js",
+    "import:emu" : "FIREBASE_AUTH_EMULATOR_HOST=127.0.0.1:9099 node importWithEmail.js",
+    "import-name" : "node importWithUserName.js",
+    "import-name:emu" : "FIREBASE_AUTH_EMULATOR_HOST=127.0.0.1:9099 node importWithUserName.js"
   },
   "author": "",
   "license": "ISC",
